@@ -15,7 +15,7 @@ environment:
   - node --version
   - npm -- version
   #run test
-  - npmm test
+  - npm test
 
   #dont actually build
   build: off
