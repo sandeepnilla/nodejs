@@ -12,7 +12,7 @@ install:
   - npm install
 
 # post-install test scripts
-  test_script:
+test_script:
   # output userful infoo for debuging
   - node --version
   - npm --version
@@ -20,4 +20,4 @@ install:
   - npm test
 
   # dont actually build
-  build: off
+build: off
