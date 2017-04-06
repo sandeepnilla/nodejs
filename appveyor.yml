@@ -5,11 +5,11 @@ environment:
   - nodejs_version: "6"
 
 # install scripts (runs after repo cloning)
-  install:
+install:
 # get the lates stable version of node js or io js
-    - ps: Install-Product node $env:nodejs_version
+  - ps: Install-Product node $env:nodejs_version
 # install modules
-    - npm install
+  - npm install
 
 # post-install test scripts
   test_script:
